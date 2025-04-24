@@ -42,6 +42,9 @@ footer:
     - label: "Email"
       icon: "fa fa-envelope"
       url: "mailto:anika@anikadoherty.com?subject=Web%20Inquiry&body=Hello%20Anika,%0D%0A"
+    - label:
+      icon: "fa-solid fa-award"
+      url: '/awards'
   copyright: "Anika Doherty" # Replace with your own
   # creator: # Replace with your own creator name or remove this if you don't want any "created by" in the footer
   #     name: ""

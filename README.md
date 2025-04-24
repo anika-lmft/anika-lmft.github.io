@@ -1,12 +1,18 @@
 # OneFlow Jekyll Theme
 
+## Personal notes
 
-<a href="https://www.flaticon.com/free-icons/water-lily" title="water lily icons">Water lily icons created by Smashicons - Flaticon</a>
+install:
+```commandline
+    bundle install
+```
 
+wdm had an issue, next command fixed it.
 ```
     gem install wdm -- --with-cflags=-Wno-implicit-function-declaration
 ```    
 
+run the build & webservice locally with:
 ```
     bundle exec jekyll serve --watch --livereload
 ```
