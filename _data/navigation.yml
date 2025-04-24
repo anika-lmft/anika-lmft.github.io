@@ -1,0 +1,14 @@
+# main links
+main:
+  - title: "HOME"
+    url: '/'
+    blank: false
+  - title: "ABOUT ME"
+    url: /about-me
+    blank: false
+  - title: "SERVICES"
+    url: '/services'
+    blank: false
+  - title: "CONTACT"
+    url: '/contact'
+    blank: false
