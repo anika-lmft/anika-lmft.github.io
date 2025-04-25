@@ -30,7 +30,7 @@ Los Gatos CA 95032
 [<i class="fa-solid fa-map"></i>](https://maps.google.com/?q=15951 Los Gatos Blvd. Suite 13, Los Gatos CA, 95032){:target="_blank"}
 
 Phone
-[(831) 256 3313](tel:8312563313)
+[(831) 824 7454](tel:8318247454)
 
 
 ----
@@ -92,13 +92,10 @@ Phone
 
 
 <label>
-Please note that email communication may not be entirely secure. Sending an email/message through this page does not guarantee that the recipient will receive, read, or respond to it and spam filters could prevent its delivery.
+Please note that email communication may not be entirely secure.
 
-Although the therapist is expected to reply by email, we recommend that you also follow up with a phone call. If you would rather communicate via phone, please include your contact number above.
+If you would rather communicate via phone, please call (831) 824 7454.
 
-</label><hr/>
-<label>
-If this is an emergency do not use this form. Call 911 or your nearest hospital.
 </label>
 
   <!-- Include reCAPTCHA JavaScript -->
