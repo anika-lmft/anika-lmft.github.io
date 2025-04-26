@@ -35,72 +35,119 @@ Phone
 
 ----
 
+
+
+<div class="columns">
+  <div class="column"></div>
+  <div class="column is-four-fifths">
+
 <form action="https://api.staticforms.xyz/submit" method="POST">
   <input type="hidden" name="apiKey" value="sf_ckijhfi4bne4a5974emhcn5b" />
   <input type="hidden" name="redirectTo" value="https://anikadoherty.com/thank-you">
   <input type="hidden" name="replyTo" value="">
+  <input type="text" name="website" style="display: none" tabindex="-1" autocomplete="off" value="https://anikadoherty.com" />
 
   <!-- Your form fields -->
+  <div class="columns is-multiline">
+    <div class="column is-one-third"> 
+      <div class="field">
+        <p class="control has-icons-left" style="margin-bottom: 0px;">
+          <input class="input" type="text" placeholder="First Name" name="First Name" id="first-name" required />
+          <span class="icon is-small is-left">
+            <i class="fas fa-user"></i>
+          </span>
+        </p>
+      </div>
+    </div>
+    <div class="column is-two-thirds">
+      <div class="field">
+        <p class="control has-icons-left" style="margin-bottom: 0px;">
+          <input class="input" type="text" placeholder="Last Name" name="Last Name" id="last-name" required/>
+          <span class="icon is-small is-left">
+            <i class="fas fa-user"></i>
+          </span>
+        </p>
+      </div>
+    </div>
 
+    <div class="column is-full">
+      <div class="field">
+        <p class="control has-icons-left">
+          <input class="input" type="email" placeholder="Email" name="Email" id="email" required />
+          <span class="icon is-small is-left">
+            <i class="fas fa-envelope"></i>
+          </span>
+        </p>
+      </div>
+    </div>
 
-  <input type="text" name="website" style="display: none" tabindex="-1" autocomplete="off" value="https://anikadoherty.com" />
-  <div class="form-group">
-    <label for="name">First Name:</label>
-    <input type="text" id="first-name" name="First Name" required>
-  </div>
-  <div class="form-group">
-    <label for="name">Last Name:</label>
-    <input type="text" id="last-name" name="Last Name" required>
-  </div>
+    <div class="column is-full">
+      <div class="field">
+        <p class="control has-icons-left">
+          <input class="input" type="text" placeholder="Phone number" name="Phone" id="phone" required />
+          <span class="icon is-small is-left">
+            <i class="fas fa-phone"></i>
+          </span>
+        </p>
+      </div>
+    </div>
 
-  <div class="form-group">
-    <label for="email">Email:</label>
-    <input type="email" id="email" name="Email" required>
-  </div>
-
-  <div class="form-group">
-    <label for="phone">Phone:</label>
-    <input type="text" id="phone" name="Phone" required>
-  </div>
-
-  <div class="form-check">
-      <input class="form-check-input" type="checkbox" value="phone-ok-to-contact-client" id="phone-ok" name="Phone OK">
-      <label class="form-check-label" for="phone-ok">
+    <div class="column is-full">
+     <div class="checkboxes">
+      <label class="checkbox">
+        <input type="checkbox" value="phone-ok-to-contact-client" id="phone-ok" name="Phone OK">
         By checking this box you agree that the phone number you provided may be used to contact you.
       </label>
-      <input class="form-check-input" type="checkbox" value="placeholder" id="phone-ph" name="Phone OK" checked style="display: none" tabindex="-1">
-      <label class="form-check-label" for="phone-ph" style="display: none" tabindex="-1">
-        place holder
+      <label class="checkbox" style="display: none">
+        <input type="checkbox" value="placeholder" id="phone-ok" name="Phone OK" checked>
+        Placeholder
       </label>
+     </div>
+    </div>
+
+    <div class="column is-full">
+      <div class="field">
+        <p class="control">
+          <input class="input" type="text" placeholder="Subject" name="Subject" id="subject" required />
+        </p>
+      </div>
+    </div>
+
+    <div class="column is-full">
+      <div class="field">
+        <textarea class="textarea" rows="10" id="message" name="Message" placeholder="your message" required></textarea>
+      </div>
+    </div>
+
+    <div class="column is-full">
+      <!-- reCAPTCHA widget -->
+      <div class="g-recaptcha" data-sitekey="6LdPZSIrAAAAAOZucJNpkSg3midogmAmMN5yVhXq"></div>
+    </div>
+
+    <div class="column is-one-fifth">
+        <button class="button is-primary is-fullwidth" type="submit">Send</button>
+    </div>
+    <div class="column">
+      <label class="label">
+        Please note that email communication may not be entirely secure.
+        
+        If you would rather communicate via phone, please call (831) 824 7454.
+        
+      </label>
+    </div>
+
+
+
   </div>
 
-  <div class="form-group">
-    <label for="name">Subject:</label>
-    <input type="text" id="subject" name="Subject" required>
-  </div>
-
-  <div class="form-group">
-    <label for="message">Message:</label>
-    <textarea id="message" name="Message" required></textarea>
-  </div>
-
-
-  <!-- reCAPTCHA widget -->
-  <div class="g-recaptcha" data-sitekey="6LdPZSIrAAAAAOZucJNpkSg3midogmAmMN5yVhXq"></div>
-
-  <button type="submit">Send</button>
-
-
-<label>
-Please note that email communication may not be entirely secure.
-
-If you would rather communicate via phone, please call (831) 824 7454.
-
-</label>
 
   <!-- Include reCAPTCHA JavaScript -->
   <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 </form>
+
+
+  </div>
+</div>
 
 <script>
 document.querySelector('form').addEventListener('submit', function(event) {

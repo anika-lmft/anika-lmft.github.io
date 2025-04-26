@@ -13,7 +13,6 @@ header:
 
 ---
 
-
 ## If you are looking for individual therapy:
 
 Having an unbiased person to talk to during difficult times can create the space for meaningful changes. Maybe you are experiencing depression and sadness and don't know how to get through the day. Maybe it's anxiety or excessive worry that make ordinary activities overwhelming. Sometimes intimate relationships can cause distress and discomfort. And then there's grief and loss through bereavement that begs for its own deep process, requiring us to face its shape-shifting face of emotions.
