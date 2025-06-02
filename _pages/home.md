@@ -1,5 +1,5 @@
 ---
-hero_text: "The Wound Is The Place Where The Light Enters You <br> - Rumi"
+hero_text: "The Wound Is The Place Where The Light Enters You <br> - Rumi <br> <br> <br> <br> <br>"
 
 
 
