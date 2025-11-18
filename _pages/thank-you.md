@@ -1,5 +1,5 @@
 ---
-title: "Anika Doherty -- Licensed Marriage and Family Therapist"
+title: ""
 
 hero_text: "Thank you!"
 
