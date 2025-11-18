@@ -115,7 +115,7 @@ Phone
 
     <div class="column is-full">
       <div class="field">
-        <textarea class="textarea" rows="10" id="message" name="Message" placeholder="your message" required></textarea>
+        <textarea class="textarea" rows="10" id="message" name="Message" placeholder="Your message. Feel free to reach out for an appointment, introduction, or even to ask a question. Please do not include sensitive medical information." required></textarea>
       </div>
     </div>
 
@@ -129,7 +129,6 @@ Phone
     </div>
     <div class="column">
       <label class="label">
-        Please note that email communication may not be entirely secure.
         
         If you would rather communicate via phone, please call (831) 824 7454.
         
