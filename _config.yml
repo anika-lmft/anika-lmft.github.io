@@ -11,7 +11,7 @@ oneflow-skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon",
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Anika Doherty -- Licensed Marriage and Family Therapist"
+title                    : "Therapy for couples and individuals -- Anika Doherty LMFT"
 title_separator          : "-"
 subtitle                 : " " # Displayed in the masthead below the title, use " " for no subtitle
 url                      : "https://anikadoherty.com/" # the base hostname & protocol for your site
