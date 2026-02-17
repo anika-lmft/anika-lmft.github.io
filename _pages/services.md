@@ -19,18 +19,25 @@ I see individuals and couples for short or long term work. I work with a variety
 * body-centered psychotherapy
 * expressive arts interventions
 * trans-personal therapy approaches
+* ERP (Exposure and Response Prevention) for OCD
 
 Your preferences and needs will lead our work together.
 
-Some areas of focus are:
 
+<hr>
+
+Some areas of focus are:
+- Couples work
+- Individual work
+- Anxiety
+- Depression
+- OCD
+- Trauma
+- Religious trauma
 - Life transitions
 - Relationship issues
 - Parenting
-- Anxiety
-- Depression
 - Finding meaning in life
 - Self-criticism and/or developing self-compassion
 - Spiritual questions
 - Grief and loss
-- Couples work

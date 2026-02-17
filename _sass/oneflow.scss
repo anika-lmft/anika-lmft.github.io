@@ -48,3 +48,18 @@ div.field > p.control {
 	font-weight: 400;
 	font-style: normal;
 }
+
+
+ul {
+    list-style-type: disc; /* This adds the standard round bullet */
+    margin-left: 20px;     /* Ensures there is room for the bullet to appear */
+    padding-left: 0;
+}
+
+li {
+    display: list-item;    /* Ensures the element behaves like a list item */
+}
+
+.page__content p:has(+ ul) {
+    margin-bottom: 5px; 
+}
